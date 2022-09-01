@@ -1,1 +1,3 @@
 certbox-utility --->> apt install certbot python3-certbot-nginx
+
+running certbot comand ---->> certbot --nginx -d <domain name> 
