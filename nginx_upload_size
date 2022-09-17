@@ -1,0 +1,25 @@
+#!/bin/bash
+cd  /etc/nginx
+
+nano  nginx.conf
+
+### check the  folowing  link  https://www.tecmint.com/limit-file-upload-size-in-nginx/
+
+#ADD THE  FOLLOWING LINES  IN THE   VM ARGS  
+
+###	http{
+		##
+		# Virtual Host Configs
+###		client_max_body_size 100M;
+		##
+###	}
+
+###
+###
+###
+###
+###
+###
+###
+###
+###
