@@ -1,0 +1,19 @@
+#!/bin/bash
+apt install certbot python3-certbot-nginx
+
+#configure the  nginx config file 
+# server{
+#     server_name <YOUR DOMAIN   NAME >;
+
+#     location / {
+#         proxy_pass <YOUR PROXY>
+#         proxy_set_header Host $host;
+#         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+#     }
+# }
+
+certbot --nginx
+
+# select the domain to sety https connection for  
+# selet  whether tyo redirect  to https protocol or not 
+# enter your email to  allowe certbot to  notify you when certificate renewal fails
